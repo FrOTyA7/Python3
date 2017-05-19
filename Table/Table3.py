@@ -1,5 +1,5 @@
 print ('==> Table3 Project coded by Khalid <==')
-while True:
+while True:           # loooooooooop ecen break
      try:
          Numper = float(input("Please, enter a Numper: "))
          Start = float(input("Start : "))
