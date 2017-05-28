@@ -1,4 +1,4 @@
-print ( value1 [start:end:step], value2 [::], '....' , sep=' ' , end='\n' , file=sys.stdout , flush=false )
+print ( value1 [start:end:step], value2 , '....' , sep=' ' , end='\n' , file=sys.stdout , flush=false )
 
 #    sep what between << value1 and value2  >>
 
@@ -19,8 +19,9 @@ bar
 >>> print('bar')
 foobar
 
-# to reverce print
-print('khalid'[::-1])
+# to reverce print  [] in string not in print
+a = 'khalid'[::-1]
+print(a)
 
 
 print('khalidx'[::])
